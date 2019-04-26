@@ -42,6 +42,7 @@
   - 字体目录： /home/user/fonts
 - 激活配置文件
   - 打印机 Web 界面->管理->配置文件->选中"INNERBOX.xml"->激活
+  - 也可在打印机界面：工具->配置文件->加载中激活
 - 附件
   - 配置文件： INNERBOX.xml
   - 程序文件： INNERBOX.PRG
