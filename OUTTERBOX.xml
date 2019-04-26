@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceInfo Type="" Family="" Model="" Version="1.0">
+<Subsystem Name="Printer" Version="1.0">
+<Group Name="Printer Settings">
+<Group Name="Communications">
+<Group Name="Serial">
+<Group Name="COM1">
+<Field Name="Baud Rate">10</Field>
+<Field Name="Data Bits">2</Field>
+<Field Name="Parity">3</Field>
+<Field Name="Stop Bits">1</Field>
+<Group Name="Flow Control">
+<Field Name="Hardware">1</Field>
+<Field Name="ENQ/ACK">1</Field>
+<Field Name="XON/XOFF To">1</Field>
+<Field Name="XON/XOFF From">1</Field>
+</Group>
+<Field Name="New Line Character">1</Field>
+</Group>
+<Group Name="Virtual COM">
+<Field Name="Baud Rate">10</Field>
+<Field Name="Data Bits">2</Field>
+<Field Name="Parity">3</Field>
+<Field Name="Stop Bits">1</Field>
+<Group Name="Flow Control">
+<Field Name="Hardware">1</Field>
+<Field Name="ENQ/ACK">1</Field>
+<Field Name="XON/XOFF To">1</Field>
+<Field Name="XON/XOFF From">1</Field>
+</Group>
+<Field Name="New Line Character">1</Field>
+<Field Name="RS-485 Printer Address">0</Field>
+</Group>
+</Group>
+<Group Name="Ethernet">
+</Group>
+</Group>
+<Group Name="Printing">
+<Group Name="Media">
+<Field Name="Media Type">4</Field>
+<Field Name="Print Method">2</Field>
+<Group Name="Print Area">
+<Field Name="Media Margin (X)">32</Field>
+<Field Name="Media Width">1600</Field>
+<Field Name="Media Length">1110</Field>
+</Group>
+<Field Name="Clip Default">2</Field>
+<Field Name="Print Mode">1</Field>
+<Field Name="Label Top Adjust">0</Field>
+<Field Name="Label Rest Adjust">0</Field>
+<Field Name="Media Calibration Mode">2</Field>
+<Field Name="Length (Slow Mode)">0</Field>
+<Group Name="Action">
+<Field Name="Power Up Action">4</Field>
+<Field Name="Head Down Action">4</Field>
+<Field Name="Hold Feed Button Action">4</Field>
+</Group>
+<Field Name="Label Counter">0</Field>
+</Group>
+<Group Name="Print Quality">
+<Field Name="Print Speed">100</Field>
+<Field Name="Media Sensitivity">4</Field>
+<Field Name="Darkness">75</Field>
+<Field Name="Contrast">8</Field>
+</Group>
+</Group>
+<Group Name="System Settings">
+<Group Name="General">
+<Field Name="System Location"></Field>
+<Field Name="System Contact"></Field>
+<Field Name="XML Response Mode">2</Field>
+<Field Name="Display Language">2</Field>
+<Field Name="Keyboard Input">1</Field>
+<Field Name="Command Language">1</Field>
+<Field Name="Alert Notification Method">3</Field>
+<Field Name="Unit of Measure">1</Field>
+<Field Name="Zero with Slash">1</Field>
+<Field Name="Time Zone">30</Field>
+<Field Name="DST Adjust">1</Field>
+</Group>
+<Group Name="Display">
+<Field Name="Brightness">3</Field>
+<Field Name="Idle Information">1</Field>
+<Field Name="Time Format">1</Field>
+<Field Name="Date Format">1</Field>
+<Field Name="Menu Access">1</Field>
+<Field Name="PIN">****</Field>
+<Field Name="Screen Timeout">1</Field>
+<Field Name="Feed Key Access">2</Field>
+<Field Name="Information Access">1</Field>
+</Group>
+<Group Name="Audio">
+<Field Name="Volume">3</Field>
+</Group>
+<Group Name="Manage Services">
+<Field Name="Web Server">2</Field>
+<Field Name="FTP">2</Field>
+<Field Name="Avalanche">2</Field>
+<Field Name="Net1">2</Field>
+<Field Name="SmartSystems">2</Field>
+<Field Name="SNMP">2</Field>
+<Field Name="LPR">2</Field>
+<Field Name="IKEv2">1</Field>
+<Field Name="SSH">2</Field>
+<Field Name="Telnet">2</Field>
+<Field Name="XML">2</Field>
+<Field Name="Time Server">1</Field>
+</Group>
+<Group Name="Maintenance Alerts">
+<Field Name="Odometer (User Resettable) (m)">0</Field>
+<Field Name="Odometer (Printer) (m)">0</Field>
+<Field Name="Odometer (Printhead) (m)">0</Field>
+<Field Name="Replace Printhead (m)">0</Field>
+<Field Name="Clean Printhead (m)">0</Field>
+<Field Name="Faulty Dot (dot)">0</Field>
+<Field Name="Ribbon Low Diameter (mm)">0</Field>
+</Group>
+</Group>
+<Group Name="Alerts">
+<Group Name="Error">
+<Group Name="Next Label Not Found">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - Next label not found</Field>
+</Group>
+<Group Name="Out of Media">
+<Field Name="Status">2</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - Out of media</Field>
+</Group>
+<Group Name="Out of Ribbon">
+<Field Name="Status">2</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - Out of ribbon</Field>
+</Group>
+<Group Name="Printer in Pause Mode">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Printer in pause mode</Field>
+</Group>
+<Group Name="Printer in Menu Mode">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Printer in menu mode</Field>
+</Group>
+<Group Name="Application Break">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - Application break</Field>
+</Group>
+<Group Name="RFID Not Installed">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - RFID not installed</Field>
+</Group>
+<Group Name="Printhead Lifted">
+<Field Name="Status">2</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - Printhead lifted</Field>
+</Group>
+<Group Name="Printhead Not Detected">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - Printhead not detected</Field>
+</Group>
+<Group Name="Printhead Too Hot">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - Printhead too hot</Field>
+</Group>
+<Group Name="Motor Too Hot">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - Motor too hot</Field>
+</Group>
+<Group Name="Power Supply Too Hot">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Error - Power supply too hot</Field>
+</Group>
+</Group>
+<Group Name="Warning">
+<Group Name="Ribbon Installed">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Ribbon installed</Field>
+</Group>
+<Group Name="Media Low">
+<Field Name="Status">2</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Media low</Field>
+</Group>
+<Group Name="Ribbon Low">
+<Field Name="Status">2</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Ribbon low</Field>
+</Group>
+<Group Name="Upgrading Firmware">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Upgrading firmware</Field>
+</Group>
+<Group Name="Odometer (User Resettable)">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Odometer (User Resettable) has reached a preset value.</Field>
+</Group>
+<Group Name="Odometer (Printhead)">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Odometer (Printhead) has reached a preset value.</Field>
+</Group>
+<Group Name="Odometer (Printer)">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Odometer (Printer) has reached a preset value.</Field>
+</Group>
+<Group Name="Replace Printhead">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Replace printhead</Field>
+</Group>
+<Group Name="Clean Printhead">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Clean printhead</Field>
+</Group>
+<Group Name="Faulty Dot">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Warning - Faulty dot is detected</Field>
+</Group>
+</Group>
+<Group Name="Information">
+<Group Name="Print Job Complete">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Print job complete</Field>
+</Group>
+<Group Name="Started">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Printer is started</Field>
+</Group>
+<Group Name="Printer is Rebooting">
+<Field Name="Status">1</Field>
+<Field Name="Delay Repeat">1</Field>
+<Field Name="Delay Unit">2</Field>
+<Field Name="Message">Printer is Rebooting</Field>
+</Group>
+</Group>
+</Group>
+<Group Name="Network Services">
+<Group Name="Avalanche">
+<Field Name="Mode">2</Field>
+<Field Name="Server Address">0.0.0.0</Field>
+<Field Name="Port Number">1777</Field>
+<Field Name="User Name"></Field>
+<Field Name="Password">****</Field>
+</Group>
+<Group Name="DNS">
+<Field Name="Primary DNS Server">10.1.76.18</Field>
+<Field Name="Secondary DNS Server">0.0.0.0</Field>
+</Group>
+<Group Name="Net1">
+<Field Name="Queue">2</Field>
+<Field Name="Port Number">9100</Field>
+<Field Name="New Line Character">1</Field>
+</Group>
+<Group Name="SmartSystems">
+<Field Name="Port Number">62241</Field>
+<Field Name="Server Address">0.0.0.0</Field>
+</Group>
+<Group Name="Email Server">
+<Field Name="Mode">2</Field>
+<Field Name="Port Number">25</Field>
+<Field Name="Server Address">0.0.0.0</Field>
+<Field Name="From Address"></Field>
+<Field Name="To Address"></Field>
+</Group>
+<Group Name="SNMP">
+<Field Name="Authentication Failure Trap">1</Field>
+<Field Name="Read Community">public</Field>
+<Field Name="Write Community">private</Field>
+<Field Name="SNMPv1 Status">2</Field>
+<Field Name="SNMPv2 Status">2</Field>
+<Field Name="Trap Status 1">2</Field>
+<Field Name="Trap Status 2">2</Field>
+<Field Name="Trap Status 3">2</Field>
+<Field Name="Trap Status 4">2</Field>
+<Field Name="Trap Name 1"></Field>
+<Field Name="Trap Name 2"></Field>
+<Field Name="Trap Name 3"></Field>
+<Field Name="Trap Name 4"></Field>
+<Field Name="Trap Address 1">0.0.0.0</Field>
+<Field Name="Trap Address 2">0.0.0.0</Field>
+<Field Name="Trap Address 3">0.0.0.0</Field>
+<Field Name="Trap Address 4">0.0.0.0</Field>
+<Field Name="Trap Port Number 1">162</Field>
+<Field Name="Trap Port Number 2">162</Field>
+<Field Name="Trap Port Number 3">162</Field>
+<Field Name="Trap Port Number 4">162</Field>
+<Field Name="Trap Community 1">public</Field>
+<Field Name="Trap Community 2">public</Field>
+<Field Name="Trap Community 3">public</Field>
+<Field Name="Trap Community 4">public</Field>
+<Field Name="SNMPv3 Username">initial</Field>
+<Field Name="SNMPv3 Authentication Key">auth_key</Field>
+<Field Name="SNMPv3 Encryption Key">priv_key</Field>
+<Field Name="SNMPv3 Authentication Protocol">2</Field>
+<Field Name="SNMPv3 Encryption Protocol">2</Field>
+</Group>
+<Group Name="WINS">
+<Field Name="Primary WINS Server">0.0.0.0</Field>
+<Field Name="Secondary WINS Server">0.0.0.0</Field>
+</Group>
+<Group Name="Web Server">
+<Field Name="Image Buffer">2</Field>
+</Group>
+<Group Name="Time Server">
+<Field Name="Server Address">ntp0.cornell.edu</Field>
+<Field Name="Port Number">123</Field>
+</Group>
+</Group>
+<Group Name="Languages">
+<Group Name="ZSim">
+<Group Name="Print Quality">
+<Field Name="Label Rotation">1</Field>
+<Field Name="Allow Reverse Print">2</Field>
+<Field Name="Simulator Resolution">1</Field>
+</Group>
+<Group Name="General Settings">
+<Field Name="Command Character">94</Field>
+<Field Name="Control Character">126</Field>
+<Field Name="Delimiter Character">44</Field>
+<Field Name="Printer Name">INTERMEC_$123$</Field>
+<Field Name="Software Version">PXX.XX.XXXXXXXX</Field>
+<Field Name="Reprint">1</Field>
+<Field Name="Network ID">0</Field>
+</Group>
+<Group Name="Ignore Commands">
+<Field Name="Ignore ^FR">1</Field>
+<Field Name="Ignore ^JM">1</Field>
+<Field Name="Ignore ~JS">1</Field>
+<Field Name="Ignore ^LH">1</Field>
+<Field Name="Ignore ^LL">1</Field>
+<Field Name="Ignore ^LR">1</Field>
+<Field Name="Ignore ^LS">1</Field>
+<Field Name="Ignore ^LT">1</Field>
+<Field Name="Ignore ^MF">1</Field>
+<Field Name="Ignore ^MM">1</Field>
+<Field Name="Ignore ^MN">1</Field>
+<Field Name="Ignore ^MT">1</Field>
+<Field Name="Ignore ^PM">1</Field>
+<Field Name="Ignore ^PO">1</Field>
+<Field Name="Ignore ^PQ">1</Field>
+<Field Name="Ignore ^PR">1</Field>
+<Field Name="Ignore ^PW">1</Field>
+<Field Name="Ignore ^SZ">1</Field>
+<Field Name="Ignore ~TA">1</Field>
+<Field Name="Ignore ^XB">1</Field>
+</Group>
+</Group>
+<Group Name="IPL">
+<Group Name="Media">
+<Field Name="Printhead Loading Mode">3</Field>
+<Field Name="X Origin">0</Field>
+<Field Name="Y Origin">0</Field>
+<Field Name="Label Taken Sensor">1</Field>
+<Field Name="Rewinder">1</Field>
+<Field Name="Rewinder Distance">100</Field>
+<Field Name="Label Top">20</Field>
+<Field Name="Rest Point">0</Field>
+<Field Name="End Skip Distance">0</Field>
+<Field Name="Label Retract">2</Field>
+<Field Name="Retract Distance">0</Field>
+<Field Name="Media Fault Recovery">1</Field>
+</Group>
+<Group Name="Print Quality">
+<Field Name="Printing Mode">2</Field>
+<Field Name="Legacy Mode">1</Field>
+<Field Name="Image Compress">0</Field>
+<Field Name="Media Sensitivity">563</Field>
+<Field Name="Minimum Point Size">4</Field>
+</Group>
+<Group Name="Cutter">
+<Field Name="Cutter">1</Field>
+</Group>
+<Group Name="General Settings">
+<Field Name="Printer Language">0</Field>
+<Field Name="Preamble Character">0</Field>
+<Field Name="Postamble Character">0</Field>
+<Field Name="Direct Graphics Emulation">2</Field>
+<Field Name="Response Protocol">4</Field>
+<Field Name="Auto-Transmit 1">1</Field>
+<Field Name="Auto-Transmit 2">1</Field>
+<Field Name="Auto-Transmit 3">1</Field>
+<Field Name="Auto-Transmit Disable">2</Field>
+<Field Name="Null Ignore">1</Field>
+<Field Name="Commands Ignore">1</Field>
+</Group>
+</Group>
+</Group>
+</Group>
+</Subsystem>
+</DeviceInfo>
